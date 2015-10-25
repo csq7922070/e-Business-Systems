@@ -10,9 +10,11 @@ namespace e_Business_Systems.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            return Redirect("~/pages/dist/html/index.html");
 
-            return View();
+            //ViewBag.Title = "Home Page";
+
+            //return View();
         }
     }
 }
