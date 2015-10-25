@@ -1,0 +1,16 @@
+{
+  "name": "e-Business-Systems",
+  "version": "0.1.0",
+  "authors": [],
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angularjs": "~1.4.7"
+  }
+}

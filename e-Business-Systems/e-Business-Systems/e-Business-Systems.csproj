@@ -218,6 +218,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Pages\src\html\index.html" />
+    <Content Include="Pages\gruntfile.js" />
+    <Content Include="Pages\bower.json" />
+    <None Include="Pages\src\less\index.less" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -270,8 +273,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Pages\dist\" />
-    <Folder Include="Pages\src\less\" />
+    <Folder Include="Pages\dist\css\" />
+    <Folder Include="Pages\dist\html\" />
+    <Folder Include="Pages\dist\script\" />
     <Folder Include="Pages\src\script\" />
   </ItemGroup>
   <ItemGroup>
