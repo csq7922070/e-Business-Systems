@@ -26,10 +26,22 @@
         },
 
         copy: {
-            main: {
-                files: [
-                  { src: ['src/html/index.html'], dest: 'dist/html/index.html', filter: 'isFile' }
-                ]
+            html: {
+                expand: true,
+                cwd: './src/html',
+                src: '**/*.*',
+                dest: './dist/html',
+                flatten: false,
+                filter: 'isFile'
+            },
+
+            img: {
+                expand: true,
+                cwd: './src/img',
+                src: '**/*.*',
+                dest: './dist/img',
+                flatten: false,
+                filter: 'isFile'
             }
         },
 

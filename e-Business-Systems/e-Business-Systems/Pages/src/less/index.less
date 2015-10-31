@@ -1,1 +1,132 @@
-﻿
+﻿.clear{
+	clear: both;
+}
+
+body{
+	margin: 0px;
+}
+
+.header{
+	height: 35px;
+	background-color: rgb(245,245,245);
+	font-size: 12px;
+
+	.left, .right{
+		ul li{
+			float: left;
+			list-style: none;
+			margin: 0px 10px;
+
+			a{
+				text-decoration: none;
+			}
+
+			a:link{
+				color: #6c6c6c;
+			}
+		}
+
+		ul{
+			.login-tip{
+				a:link{
+					color: #f22e00;
+				}
+			}
+		}
+	}
+
+	.left{
+		float: left;
+	}
+
+	.right{
+		float: right;
+		margin-right: 220px;
+	}
+}
+
+.top-ad-container{
+	height: 90px;
+	background-color: #ff0000;
+	text-align: center;
+}
+
+.bottom-ad-container{
+	width: 1182px;
+	margin: auto;
+	font-size: 12px;
+
+	.bottom-ad-module{
+		float: left;
+		width: 169px;
+		padding: 13px;
+		border: solid 1px lightgray;
+
+		.head{
+			.head-title{
+				font-size: 16px;
+				margin-top: 0px;
+				margin-bottom: 12px;
+			}
+		}
+
+		.main-up, .main-down, .foot{
+			margin-left: 0px;
+		}
+
+		.main-up{
+			.description{
+				width: 169px;
+				height: 52px;
+				margin: 0px;
+				margin-top: -3px;
+				text-align: center;
+				background-color: rgb(245,245,245);
+
+				.d-up, .d-down{
+					display: block;
+					font-size: 12px;
+					overflow: hidden;
+				}
+
+				.d-up{
+					font-weight: bolder;
+					margin-bottom: 5px;
+					padding-top: 10px;
+				}
+
+				.d-down{
+					color: #9c9c9c;
+				}
+			}
+		}
+
+		.main-down{
+			margin-top: 12px;
+
+			.left, .right{
+				float: left;
+
+				.description{
+					display: block;
+					text-align: center;
+					margin-top: 4px;
+				}
+			}
+
+			.right{
+				margin-left: 7px;
+			}
+		}
+
+		.foot{
+			margin-bottom: -11px;
+
+			.f-down{
+				.special{
+					color: #ff4400;
+				}
+			}
+		}
+	}
+}

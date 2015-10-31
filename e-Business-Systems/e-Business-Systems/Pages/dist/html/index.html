@@ -1,14 +1,269 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <link type="text/css" rel="stylesheet" href="../css/index.css" />
 </head>
-<body ng-app="myApp">
-    <div ng-controller="myController">
+<body>
+<!--     <div ng-controller="myController">
         <input type="text" ng-model="name"/>
         <span>{{name}}</span>
+    </div> -->
+    <div class="header">
+    	<div class="left">
+    	    <ul>
+    	    	<li class="nav login-tip"><a href="javascript(0)">亲，请登录</a></li>
+    	    	<li class="nav"><a href="javascript(void);">免费注册</a></li>
+    	    	<li class="nav"> <a href="javascript(void);">手机逛淘宝</a></li>
+    	    </ul>
+    	</div>
+
+    	<div class="right">
+    	     <ul>
+    	    	<li class="nav"><a href="javascript(void);">我的淘宝</a></li>
+    	    	<li class="nav"><a href="javascript(void);">购物车</a></li>
+    	    	<li class="nav"><a href="javascript(void);">收藏夹</a></li>
+    	    	<li class="nav"><a href="javascript(void);">商品分类</a></li>
+    	    	<li class="nav"><a href="javascript(void);">卖家中心</a></li>
+    	    	<li class="nav"><a href="javascript(void);">联系客服</a></li>
+    	    	<li class="nav"><a href="javascript(void);">网站导航</a></li>
+    	    </ul>
+    	</div>
+    </div>
+
+    <div class="top-ad-container">
+    	<img src="../img/top-ad.jpg"/>
+    </div>
+
+    <div class="bottom-ad-container">
+        <dl class="bottom-ad-module">
+            <dt class="head">
+                <h3 class="head-title">众筹</h3>
+            </dt>
+
+            <dd class="main-up">
+                <img src="../img/plane.png"/>
+                <p class="description">
+                    <span class="d-up">属于你的无人机</span>
+                    <span class="d-down">重新定义飞行乐趣</span>
+                </p>
+            </dd>
+
+            <dd class="main-down">
+                <div class="left">
+                    <img src="../img/watch.png"/>
+                    <span class="description">儿童智能手表</span>
+                </div>
+                <div class="right">
+                    <img src="../img/jjkxy.png"/>
+                    <span class="description">家居扩香仪</span>
+                </div>
+            </dd>
+            
+            <div class="clear"></div>
+            <dd class="foot">
+                <p class="f-up">
+                    <span>智能马桶盖</span>
+                    <span>原创设计</span>
+                    <span>张小盒</span>
+                </p>
+                <p class="f-down">
+                    <span class="special">寻龙诀独家</span>
+                    &nbsp;<span>赵薇法国酒庄</span>
+                </p>
+            </dd>
+        </dl>
+
+        <dl class="bottom-ad-module">
+            <dt class="head">
+                <h3 class="head-title">全球购</h3>
+            </dt>
+
+            <dd class="main-up">
+                <img src="../img/plane.png"/>
+                <p class="description">
+                    <span class="d-up">属于你的无人机</span>
+                    <span class="d-down">重新定义飞行乐趣</span>
+                </p>
+            </dd>
+
+            <dd class="main-down">
+                <div class="left">
+                    <img src="../img/watch.png"/>
+                    <span class="description">儿童智能手表</span>
+                </div>
+                <div class="right">
+                    <img src="../img/jjkxy.png"/>
+                    <span class="description">家居扩香仪</span>
+                </div>
+            </dd>
+            
+            <div class="clear"></div>
+            <dd class="foot">
+                <p class="f-up">
+                    <span>智能马桶盖</span>
+                    <span>原创设计</span>
+                    <span>张小盒</span>
+                </p>
+                <p class="f-down">
+                    <span class="special">寻龙诀独家</span>
+                    &nbsp;<span>赵薇法国酒庄</span>
+                </p>
+            </dd>
+        </dl>
+
+        <dl class="bottom-ad-module">
+            <dt class="head">
+                <h3 class="head-title">拍卖会</h3>
+            </dt>
+
+            <dd class="main-up">
+                <img src="../img/plane.png"/>
+                <p class="description">
+                    <span class="d-up">属于你的无人机</span>
+                    <span class="d-down">重新定义飞行乐趣</span>
+                </p>
+            </dd>
+
+            <dd class="main-down">
+                <div class="left">
+                    <img src="../img/watch.png"/>
+                    <span class="description">儿童智能手表</span>
+                </div>
+                <div class="right">
+                    <img src="../img/jjkxy.png"/>
+                    <span class="description">家居扩香仪</span>
+                </div>
+            </dd>
+            
+            <div class="clear"></div>
+            <dd class="foot">
+                <p class="f-up">
+                    <span>智能马桶盖</span>
+                    <span>原创设计</span>
+                    <span>张小盒</span>
+                </p>
+                <p class="f-down">
+                    <span class="special">寻龙诀独家</span>
+                    &nbsp;<span>赵薇法国酒庄</span>
+                </p>
+            </dd>
+        </dl>
+
+        <dl class="bottom-ad-module">
+            <dt class="head">
+                <h3 class="head-title">天天特价</h3>
+            </dt>
+
+            <dd class="main-up">
+                <img src="../img/plane.png"/>
+                <p class="description">
+                    <span class="d-up">属于你的无人机</span>
+                    <span class="d-down">重新定义飞行乐趣</span>
+                </p>
+            </dd>
+
+            <dd class="main-down">
+                <div class="left">
+                    <img src="../img/watch.png"/>
+                    <span class="description">儿童智能手表</span>
+                </div>
+                <div class="right">
+                    <img src="../img/jjkxy.png"/>
+                    <span class="description">家居扩香仪</span>
+                </div>
+            </dd>
+            
+            <div class="clear"></div>
+            <dd class="foot">
+                <p class="f-up">
+                    <span>智能马桶盖</span>
+                    <span>原创设计</span>
+                    <span>张小盒</span>
+                </p>
+                <p class="f-down">
+                    <span class="special">寻龙诀独家</span>
+                    &nbsp;<span>赵薇法国酒庄</span>
+                </p>
+            </dd>
+        </dl>
+
+        <dl class="bottom-ad-module">
+            <dt class="head">
+                <h3 class="head-title">淘女郎</h3>
+            </dt>
+
+            <dd class="main-up">
+                <img src="../img/plane.png"/>
+                <p class="description">
+                    <span class="d-up">属于你的无人机</span>
+                    <span class="d-down">重新定义飞行乐趣</span>
+                </p>
+            </dd>
+
+            <dd class="main-down">
+                <div class="left">
+                    <img src="../img/watch.png"/>
+                    <span class="description">儿童智能手表</span>
+                </div>
+                <div class="right">
+                    <img src="../img/jjkxy.png"/>
+                    <span class="description">家居扩香仪</span>
+                </div>
+            </dd>
+            
+            <div class="clear"></div>
+            <dd class="foot">
+                <p class="f-up">
+                    <span>智能马桶盖</span>
+                    <span>原创设计</span>
+                    <span>张小盒</span>
+                </p>
+                <p class="f-down">
+                    <span class="special">寻龙诀独家</span>
+                    &nbsp;<span>赵薇法国酒庄</span>
+                </p>
+            </dd>
+        </dl>
+
+        <dl class="bottom-ad-module">
+            <dt class="head">
+                <h3 class="head-title">阿里旅行</h3>
+            </dt>
+
+            <dd class="main-up">
+                <img src="../img/plane.png"/>
+                <p class="description">
+                    <span class="d-up">属于你的无人机</span>
+                    <span class="d-down">重新定义飞行乐趣</span>
+                </p>
+            </dd>
+
+            <dd class="main-down">
+                <div class="left">
+                    <img src="../img/watch.png"/>
+                    <span class="description">儿童智能手表</span>
+                </div>
+                <div class="right">
+                    <img src="../img/jjkxy.png"/>
+                    <span class="description">家居扩香仪</span>
+                </div>
+            </dd>
+            
+            <div class="clear"></div>
+            <dd class="foot">
+                <p class="f-up">
+                    <span>智能马桶盖</span>
+                    <span>原创设计</span>
+                    <span>张小盒</span>
+                </p>
+                <p class="f-down">
+                    <span class="special">寻龙诀独家</span>
+                    &nbsp;<span>赵薇法国酒庄</span>
+                </p>
+            </dd>
+        </dl>
     </div>
     <script type="text/javascript" src="../script/lib/requirejs/require.js" data-main="../script/index.js"></script>
 </body>

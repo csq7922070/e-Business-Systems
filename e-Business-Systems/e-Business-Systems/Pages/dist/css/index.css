@@ -1,0 +1,106 @@
+.clear {
+  clear: both;
+}
+body {
+  margin: 0px;
+}
+.header {
+  height: 35px;
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+.header .left ul li,
+.header .right ul li {
+  float: left;
+  list-style: none;
+  margin: 0px 10px;
+}
+.header .left ul li a,
+.header .right ul li a {
+  text-decoration: none;
+}
+.header .left ul li a:link,
+.header .right ul li a:link {
+  color: #6c6c6c;
+}
+.header .left ul .login-tip a:link,
+.header .right ul .login-tip a:link {
+  color: #f22e00;
+}
+.header .left {
+  float: left;
+}
+.header .right {
+  float: right;
+  margin-right: 220px;
+}
+.top-ad-container {
+  height: 90px;
+  background-color: #ff0000;
+  text-align: center;
+}
+.bottom-ad-container {
+  width: 1182px;
+  margin: auto;
+  font-size: 12px;
+}
+.bottom-ad-container .bottom-ad-module {
+  float: left;
+  width: 169px;
+  padding: 13px;
+  border: solid 1px lightgray;
+}
+.bottom-ad-container .bottom-ad-module .head .head-title {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.bottom-ad-container .bottom-ad-module .main-up,
+.bottom-ad-container .bottom-ad-module .main-down,
+.bottom-ad-container .bottom-ad-module .foot {
+  margin-left: 0px;
+}
+.bottom-ad-container .bottom-ad-module .main-up .description {
+  width: 169px;
+  height: 52px;
+  margin: 0px;
+  margin-top: -3px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.bottom-ad-container .bottom-ad-module .main-up .description .d-up,
+.bottom-ad-container .bottom-ad-module .main-up .description .d-down {
+  display: block;
+  font-size: 12px;
+  overflow: hidden;
+}
+.bottom-ad-container .bottom-ad-module .main-up .description .d-up {
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+.bottom-ad-container .bottom-ad-module .main-up .description .d-down {
+  color: #9c9c9c;
+}
+.bottom-ad-container .bottom-ad-module .main-down {
+  margin-top: 12px;
+}
+.bottom-ad-container .bottom-ad-module .main-down .left,
+.bottom-ad-container .bottom-ad-module .main-down .right {
+  float: left;
+}
+.bottom-ad-container .bottom-ad-module .main-down .left .description,
+.bottom-ad-container .bottom-ad-module .main-down .right .description {
+  display: block;
+  text-align: center;
+  margin-top: 4px;
+}
+.bottom-ad-container .bottom-ad-module .main-down .right {
+  margin-left: 7px;
+}
+.bottom-ad-container .bottom-ad-module .foot {
+  margin-bottom: -11px;
+}
+.bottom-ad-container .bottom-ad-module .foot .f-down .special {
+  color: #ff4400;
+}
