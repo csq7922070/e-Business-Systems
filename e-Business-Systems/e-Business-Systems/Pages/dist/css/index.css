@@ -49,6 +49,7 @@ body {
   width: 169px;
   padding: 13px;
   border: solid 1px lightgray;
+  border-left-width: 0px;
 }
 .bottom-ad-container .bottom-ad-module .head .head-title {
   font-size: 16px;
@@ -75,6 +76,7 @@ body {
   overflow: hidden;
 }
 .bottom-ad-container .bottom-ad-module .main-up .description .d-up {
+  color: #3c3c3c;
   font-weight: bolder;
   margin-bottom: 5px;
   padding-top: 10px;
@@ -103,4 +105,7 @@ body {
 }
 .bottom-ad-container .bottom-ad-module .foot .f-down .special {
   color: #ff4400;
+}
+.bottom-ad-container .first-module {
+  border-left-width: 1px;
 }
